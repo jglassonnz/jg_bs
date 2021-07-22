@@ -1,0 +1,686 @@
+
+nav#sidebarMenu li.header {
+    padding-left: 0.5vw;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+
+table, td, tr, th {
+    border-color: rgb(110, 110, 110) !important;
+}
+
+.header {
+    margin: 3vh;
+}
+
+.jg_bs.modal {
+    height: 100%;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #00000052;
+}
+
+#crm_navbar .backbutton {
+    margin-right: 1vw;
+    padding-right: 1vw;
+    margin-left: -0.5vw;
+    border-right: gray 1px solid;
+    height: 100%;
+}
+
+i#invoice-toggle-amount-split {
+    position: absolute;
+}
+
+button.btn.btn-default.crm-finance-invoice-line-delete {
+    height: 3vh;
+    width: 1vw;
+    position: relative;
+}
+
+button.btn.btn-default.crm-finance-invoice-line-delete i {
+    position: absolute;
+    top: 0.5vh;
+    left: 0.1vw;
+}
+
+.sticky-top {
+    position: fixed;
+    width: 100%;
+}
+
+div#content {
+    margin-top: 8vh;
+    height: calc(100% - 8vh);
+}
+
+header.navbar {
+    height: 8vh;
+}
+
+.box-header.with-border {
+    position: fixed;
+    top: 8vh;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    padding-bottom: 1.5vh;
+    border-bottom: 1px solid black;
+    padding-top: 2vh;
+}
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 200; /* Behind the navbar */
+    padding: 8vh 0 0; /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  }
+
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  .sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #727272;
+  }
+  
+  .sidebar .nav-link.active {
+    color: #007bff;
+  }
+  
+  .sidebar .nav-link:hover .feather,
+  .sidebar .nav-link.active .feather {
+    color: inherit;
+  }
+  
+  .sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+  
+  .navbar .navbar-toggler {
+    right: 4vw;
+  }
+
+.crm_header h1 {
+    font-size: xx-large;
+}
+.crm_header h3 {
+    font-size: large;
+}
+.crm_status {
+    height: 100%;
+    text-align: right;
+}
+.crm_header {
+    background-color: white;
+    /*padding: 0.5% 1%;*/
+}
+#crm_navbar ul.navbar-nav {
+    width: 40%;
+}
+
+.crm-navigate-button {
+    cursor: pointer;
+}
+
+tr.crm-navigate-button:hover {
+    background: #f4f4f485;
+    box-shadow: 0px 2px 5px 3px lightgrey;
+}
+
+.crm-form-indent {
+    padding-left: 2vw;
+}
+.container_fluid.crm_header .row {
+    padding: 0.5% 1%;
+}
+ul.navbar-nav.align-right {
+    justify-content: flex-end;
+}
+
+.main-header .navbar {
+    margin-left: unset;
+}
+
+#addTimeEntry.modal .modal-dialog {
+    min-width: 60vw;
+}
+
+.absolute-right {
+    right: 1%;
+    position: absolute;
+}
+.main-header>nav.navbar {
+    padding: 0;
+    max-height: 50px;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+.crm-default-box-border {
+    background-color: white;
+    box-shadow: 2px 2px 5px lightgrey;
+    border: 1px solid #d3d3d3a3;
+    margin: 1%;
+}
+
+.crm-box-header {
+    padding: 1vh;
+}
+
+.crm-list-header-menu .dropdown-menu {
+    z-index: 1000;
+    position: absolute;
+}
+
+.crm-list-header-menu,.crm-list-header-menu>ul, .crm-list-header-menu>ul>li, .crm-list-header-menu>ul>li>a {
+    display: inline;
+}
+
+.crm-finance-invoice-line td {
+    position: relative;
+}
+
+.crm-finance-invoice-line .dropdown-menu.show {
+    max-height: 30vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.crm-box-seperator::after {
+    content: '';
+    background-color: lightgray;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(lightgray), to(white), color-stop(200%, lightgray));
+    margin-top: 5px;
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+
+.crm-box-seperator {
+    padding: 1vh;
+}
+
+.crm-finance-invoice-line td i {
+    position: absolute;
+}
+
+.crm-finance-invoice-line > td > i + input {
+    margin-left: 0.5vw;
+}
+
+.crm-box-form {
+    padding: 0 1vh;
+}
+
+[class^="crm-"] h5 {
+    margin: 0;
+}
+
+.crm-index-filter .btn.btn-success {
+    max-height: 3vh;
+    padding: 0.1vh 0.5vw;
+    vertical-align: top;
+}
+
+select[id^="crm-index-filter-"] {
+    height: 3vh;
+}
+
+.crm-box-form .row {
+    margin: 1vh;
+}
+
+.crm-index-filter-container {
+    display: inline-block;
+    padding: 0 2vw;
+}
+
+.crm-index-filter {
+    height: 100%;
+    display: block;
+}
+
+.crm-form input, 
+.crm-form textarea,
+.crm-form select {
+    width: 100%;
+    border: none;
+}
+
+textarea.crm-invoice-line-description {
+    width: 100% !important;
+}
+
+.crm-box-form textarea {
+    height: 20vh;
+}
+
+.crm-form input[type="checkbox"] {
+    width: unset;
+}
+
+.crm-form input:focus,
+.crm-form textarea:focus,
+.crm-form select:focus {
+    outline: none;
+}
+
+table.table.crm-data.crm-finance-invoice-accounttable tr:hover {
+    cursor: pointer;
+    background-color: #80808017;
+}
+
+input:disabled {
+    background: none;
+}
+
+.table-hover>tbody>tr:hover {
+    --bs-table-accent-bg: none;
+    color: black;
+}
+
+.crm-box-form .col-sm-9::after,  .crm-box-form .col-sm-8::after {
+    content: '';
+    background-color: lightgray;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(lightgray), to(white), color-stop(200%, lightgray));
+    margin-top: 5px;
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+
+li#sidebar-toggle {
+    margin: auto;
+}
+
+.crm-timesheets-table table {
+    table-layout: fixed;
+}
+
+.crm-timesheets-jobrow h3 {
+    font-size: medium;
+}
+
+.crm-timesheets-jobrow h5 {
+    font-size: smaller;
+}
+
+td.crm-timesheets-jobrow {
+    border-right: 1px solid #f4f4f4;
+}
+
+td.crm-timesheets-jobrow:not(:first-child, :last-child, .crm-timesheets-table-totalcol):hover {
+    background-color: #f4f4f430;
+    cursor: pointer;
+}
+
+td.crm-timesheets-jobrow:not(:first-child) {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.crm-timesheets-table-dayheader {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.crm_header input[type="date"] {
+    margin: 1vw;
+    vertical-align: middle;
+}
+
+section.crm-data-accordion .accordion div.collapsed-left {
+    text-align: left;
+    display: inline-block;
+    width: 74%;
+}
+
+section.crm-data-accordion .accordion div.collapsed-50-left {
+    text-align: left;
+    display: inline-block;
+    width: 49%;
+}
+
+section.crm-data-accordion .accordion .accordion-item {
+    padding: 1vh 4vw;
+}
+
+section.crm-data-accordion .accordion::after, .crm-input-underline::after, .accordion-body::before {
+    content: '';
+    background-color: lightgray;
+    background: radial-gradient(circle, rgba(211,211,211,1) 0%, rgba(255,255,255,1) 100%);
+    margin-top: 5px;
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+
+.accordion-item .collapsing button {
+    display: none;
+}
+
+.box-header .box-title {
+    display: inline-block;
+}
+
+section.crm-data-accordion .accordion-body b {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+section.crm-data-accordion .accordion-body p {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+section.crm-data-accordion .accordion-header {
+    font-weight: 500;
+}
+
+section.crm-data-accordion .accordion-header div {
+    padding-top: 1vh;
+}
+
+section.crm-data-accordion .accordion-header div:last-child {
+    padding-bottom: 1vh;
+}
+
+section.crm-data-accordion .accordion-body {
+    padding: 0;
+    padding-top: 1vh;
+}
+
+section.crm-data-accordion .accordion-body b:nth-child(1), 
+section.crm-data-accordion .accordion-body p:nth-child(2) {
+    padding-top: 1vh;
+}
+
+section.crm-data-accordion .accordion-body p {
+    padding: 0;
+    margin: 0;
+}
+
+section.crm-data-accordion .accordion div.collapsed-right {
+    text-align: right;
+    display: inline-block;
+    width: 24%;
+}
+
+section.crm-data-accordion .accordion div.collapsed-50-right {
+    width: 49%;
+    direction: rtl;
+    display: inline-block;
+}
+
+.crm-format-money {
+    position: relative;
+}
+.crm-format-money i {
+    position: absolute;
+    left: 2vw;
+}
+
+section.crm-data-accordion {
+    display: none;
+}
+table.crm-data-accordion {
+    display: table;
+}
+
+.crm-index-filter div {
+    margin-top: 1vh;
+    display: inline-block;
+}
+
+.crm-index-filter input, .crm-index-filter select, .crm-index-filter input:focus, .crm-index-filter select:focus, #crm-timesheets-dateselector, #crm-timesheets-dateselector:focus {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.crm-index-create {
+    padding: 2vh 0 1vh 0;
+    display: block;
+}
+
+.crm-index-create p {
+    display: inline;
+}
+
+.box-header.with-border {
+    padding-left: 1vw;
+}
+
+.crm_header.box-header {
+    padding: 0;
+}
+
+.finance .accordion-item i.fa-chevron-down {
+    text-align: center;
+    padding-top: 2vh;
+    display: none;
+}
+
+.finance .accordion-item i.fa-chevron-up {
+    text-align: center;
+    padding-top: 2vh;
+    display: none;
+}
+
+.finance .accordion-header-noclick {
+    width: 90%;
+}
+
+.finance .accordion-header {
+    width: 8%;
+    display: inline-flex;
+}
+
+.finance .accordion-item div.collapsed i.fa-chevron-down {
+    display: block;
+}
+
+.finance .accordion-item div:not(.collapsed) i.fa-chevron-up {
+    display: block;
+}
+
+button.btn.btn-success.crm-finance-invoice-addrow {
+    float: right;
+    margin: 2vh 0 1vh 0;
+}
+
+button.btn.btn-success.crm-finance-invoice-addrow {
+    width: 6vw;
+    margin: 0 0 1vh 0.5vw;
+}
+
+@media only screen and (max-width: 767px) {
+
+    button.btn.btn-success.crm-finance-invoice-addrow {
+        width: 35vw;
+        margin: 1vh 0 1vh 2vw;
+    }
+
+    #crm_navbar ul.navbar-nav {
+        width: 100%;
+    }
+
+    .crm_header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+        height: 0;
+        padding: 0;
+    }
+
+    .crm_header div#crm_navbar {
+        background: white;
+    }
+
+    .crm_header nav.navbar.navbar-expand-lg.navbar-light.bg-light .container-fluid {
+        height: 0;
+    }
+
+    .crm_header nav.navbar.navbar-expand-lg.navbar-light.bg-light button.navbar-toggler {
+        position: absolute;
+        left: 4vw;
+        bottom: 1vh;
+    }
+
+
+    .crm-finance-invoice-footer {
+        flex-direction: column-reverse;
+    }
+
+    .container-fluid.box-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .row.crm-default-box-border {
+        margin-left: 0;
+        margin-right: 0;
+        border-left: none;
+        border-right: none;
+    }
+
+    .box-header.with-border {
+        padding-left: 0;
+    }  
+
+    .crm-index-filter-container {
+        padding-top: 1vh;
+        margin-top: 1vh;
+        border-top: 1px solid black;
+        width: 100%;
+    }
+
+
+    .crm-index-create p {
+        display: none;
+    }
+
+    .crm-index-create {
+        position: absolute;
+        right: 4vw;
+        top: 1.5vh;
+        padding: 0;
+    }
+
+    .crm-index-filter div {
+        display: block;
+    }
+
+    .box-header .box-title {
+        padding-left: 2vw;
+    }
+
+    div.crm-filter-right, div.crm-filter-left {
+        width: 49%;
+        display: inline-block;
+    }
+
+    div.crm-filter-fullwidth {
+        width: 100%;
+    }
+
+    div.crm-filter-right {
+        float: right;
+    }
+
+    table.crm-data-accordion {
+        display: none;
+    }
+    section.crm-data-accordion {
+        display: block;
+    }
+
+
+    header.navbar {
+        min-height: 8vh;
+        top: 0;
+        position: fixed;
+        width: 100%;
+    }
+
+    #content {
+        margin-top: 8vh;
+    }
+
+    .main-header ul.navbar-nav .user-menu {
+        display: none;
+    }
+
+    .table [data-selected="false"] {
+        display: none;
+    }
+
+    .main-header ul.navbar-nav.absolute-right {
+        top: 0;
+        height: 100%;
+        right: 5vw;
+    }
+
+
+    #crm-header-title, #crm-header-subtitle, #crm-header-active {
+        text-align: center;
+    }
+
+    .navbar-expand-lg ul .nav-item {
+        display: block;
+        text-align: center;
+        font-size: larger;
+        padding: 1vw;
+    }
+
+    .crm-finance-invoice-line {
+        border-bottom: 1px solid gray;
+    }
+
+    .crm-finance-invoice-line-delete {
+        text-align: center;
+        border: 1px solid black;
+        margin: 2vw;
+    }
+
+    .crm-finance-invoice-line td.hidden-sm.hidden-xs::before {
+        display: none;
+    }
+
+    .crm-finance-invoice-line td.hidden-sm.hidden-xs {
+        height: 0;
+    }
+
+
+    .accordion a.btn.btn-success {
+        position: absolute;
+        right: 4vw;
+        top: 2vh;
+    }
+
+    
+
+}
