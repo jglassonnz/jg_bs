@@ -28,7 +28,7 @@ function jg_createData(organizationURI, url, data, callback) {
         url: organizationURI + "/api/data/v9.1/" + url,
         data: JSON.stringify(data),
         headers: {
-            "Accept": "application/json",
+            "Accept": "application/json; odata.metadata=full",
             "Content-Type": "application/json; charset=utf-8",
             "OData-MaxVersion": "4.0",
             "OData-Version": "4.0",
@@ -48,7 +48,7 @@ function jg_updateData(organizationURI, url, data, callback) {
         url: organizationURI + "/api/data/v9.1/" + url,
         data: JSON.stringify(data),
         headers: {
-            "Accept": "application/json",
+            "Accept": "application/json; odata.metadata=full",
             "Content-Type": "application/json; charset=utf-8",
             "OData-MaxVersion": "4.0",
             "OData-Version": "4.0",
@@ -66,7 +66,7 @@ function jg_retrieveData(organizationURI, url, callback) {
         type: "GET",
         url: organizationURI + "/api/data/v9.1/" + url,
         headers: {
-            "Accept": "application/json",
+            "Accept": "application/json; odata.metadata=full",
             "Content-Type": "application/json; charset=utf-8",
             "OData-MaxVersion": "4.0",
             "OData-Version": "4.0"
@@ -82,6 +82,7 @@ function jg_deleteData(organizationURI, url, callback) {
         type: "DELETE",
         url: organizationURI + "/api/data/v9.1/" + url,
         headers: {
+            "Accept": "application/json; odata.metadata=full",
             "Content-Type": "application/json; charset=utf-8",
             "OData-MaxVersion": "4.0",
             "OData-Version": "4.0"
